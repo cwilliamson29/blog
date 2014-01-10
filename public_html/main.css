@@ -1,0 +1,92 @@
+A:link {text-decoration: none; color:white;}
+A:visited {text-decoration: none; color:white;}
+A:hover {text-decoration: none; color:gray;}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: #E6E6E6;
+    display: table-cell;
+    //background-image:url('img/coral-reef-fiji.jpg');
+    //background-repeat:space;
+    display: table;
+    margin:0 auto;
+}
+.mainWrap{
+    width: 900px;
+    height: 650px;
+    alignment-adjust: middle;
+    margin: 0 auto;
+    //background: #E6E6E6;
+    //border-left: 2px solid black;
+    //border-right: 2px solid black;
+    box-shadow: -10px 0px 200px -10px, 10px 0px 100px -10px;
+}
+.menuTop{
+    margin: 0px 0px;
+    position:absolute;
+    left:0;
+    right:0;
+    height: 52px;
+    background-color: black;
+}
+.menuInside{
+    width: 900px;
+    height: 51px;    
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-family:fantasy, Verdana;
+    text-shadow: #888888;
+    text-decoration: aliceblue;
+    text-decoration-color: aliceblue;
+    text-decoration-style: solid;
+}
+.menuInsideItem1{
+    float: left;
+    text-align: center;
+    width: 220px;
+    height: 52px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-style: none;
+    border-color: gray;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+.menuInsideItem1-1{
+    float: left;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    width: 220px;
+}
+.menuInsideItem2{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 52px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-style: none;
+    border-color: gray;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.menuInsideItem2-1{
+    float: left;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    width: 100px;
+}
+.footer{
+    margin: 0px 0px;
+    position:absolute;
+    left:0;
+    right:0;
+    height: 100px;
+    background-color: black;
+}
